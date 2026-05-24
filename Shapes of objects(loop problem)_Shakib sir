@@ -1,0 +1,18 @@
+/*basic idea is one loop for row and one for column and then any changes in your code and output can happen
+1.Bangladesh flag () die made
+#include<stdio.h>
+    int main(){
+        int w;
+        printf("Enter the width of the flag:\n");
+        scanf("%d",&w);
+           for(int i=1;i<=w;i++){
+            for(int j=1;j<=w+4;j++){
+                if(i==4&&j>5&&j<12||i==5&&j>4&&j<13||i==6&&j>3&&j<14||i==7&&j>3&&j<14||i==8&&j>4&&j<13||i==9&&j>5&&j<12)
+                    printf(" ()");
+                else
+                printf(" * ");    
+            }
+            printf("\n");
+           }
+    return 0;
+    }
