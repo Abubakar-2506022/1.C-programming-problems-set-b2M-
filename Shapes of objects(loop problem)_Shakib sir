@@ -1,5 +1,5 @@
 /*basic idea is one loop for row and one for column and then any changes in your code and output can happen
-1.Bangladesh flag () die made
+1.Bangladesh flag () die made*/
 #include<stdio.h>
     int main(){
         int w;
@@ -16,3 +16,52 @@
            }
     return 0;
     }
+2.A,AB,ABC,ABCD,ABCDE,.....
+#include<stdio.h>
+    int main(){
+        int w;
+        printf("Enter the line number:");
+        scanf("%d",&w);
+           for(int i=1;i<=w;i++){
+            for(int j=0;j<i;j++){
+                printf("%c",j+65);
+            }
+            printf("\n");
+           }
+    return 0;
+    }
+3.1,22,333,4444,55555,.......
+#include<stdio.h>
+    int main(){
+        int w;
+        printf("Enter the line number:");
+        scanf("%d",&w);
+           for(int i=1;i<=w;i++){
+            for(int j=0;j<i;j++){
+                printf("%d",i);
+            }
+            printf("\n");
+           }
+    return 0;
+    }
+4.square (not hollow)
+#include<stdio.h>
+    int main(){
+        int w;
+        printf("Enter the line number:");
+        scanf("%d",&w);
+           for(int i=1;i<=w;i++){
+            for(int j=1;j<=w;j++){
+                printf(" * ");
+            }
+            printf("\n");
+           }
+    return 0;
+    }
+
+
+
+
+
+    
+
